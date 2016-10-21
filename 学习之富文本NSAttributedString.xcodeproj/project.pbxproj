@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE121C731DB46D5500C28179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE121C721DB46D5500C28179 /* main.m */; };
+		EE121C761DB46D5500C28179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE121C751DB46D5500C28179 /* AppDelegate.m */; };
+		EE121C791DB46D5500C28179 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE121C781DB46D5500C28179 /* ViewController.m */; };
+		EE121C7C1DB46D5500C28179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE121C7A1DB46D5500C28179 /* Main.storyboard */; };
+		EE121C7E1DB46D5500C28179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE121C7D1DB46D5500C28179 /* Assets.xcassets */; };
+		EE121C811DB46D5500C28179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE121C7F1DB46D5500C28179 /* LaunchScreen.storyboard */; };
+		EE121C8C1DB46D5500C28179 /* ______NSAttributedStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE121C8B1DB46D5500C28179 /* ______NSAttributedStringTests.m */; };
+		EE121C971DB46D5500C28179 /* ______NSAttributedStringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE121C961DB46D5500C28179 /* ______NSAttributedStringUITests.m */; };
+		EE121CA61DB4B37600C28179 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE121CA51DB4B37600C28179 /* SecondViewController.m */; };
+		EE121CA91DB4C05B00C28179 /* SE`3$9B6}2U77K@4J652D1G.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE121CA71DB4C05B00C28179 /* SE`3$9B6}2U77K@4J652D1G.jpg */; };
+		EE121CAA1DB4C05B00C28179 /* 3S(P3C}(QR07_`S8`6YUUKA.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE121CA81DB4C05B00C28179 /* 3S(P3C}(QR07_`S8`6YUUKA.gif */; };
+		EE121CAC1DB4C2B800C28179 /* _QHXQ3OZT{VKKQUF@[{HU83.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE121CAB1DB4C2B800C28179 /* _QHXQ3OZT{VKKQUF@[{HU83.jpg */; };
+		EE121CAE1DB4C2E200C28179 /* )U1FJW4{8[0)DSY%4ZG(MHE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE121CAD1DB4C2E200C28179 /* )U1FJW4{8[0)DSY%4ZG(MHE.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE121C881DB46D5500C28179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE121C661DB46D5500C28179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE121C6D1DB46D5500C28179;
+			remoteInfo = "学习之富文本NSAttributedString";
+		};
+		EE121C931DB46D5500C28179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE121C661DB46D5500C28179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE121C6D1DB46D5500C28179;
+			remoteInfo = "学习之富文本NSAttributedString";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE121C6E1DB46D5500C28179 /* 学习之富文本NSAttributedString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "学习之富文本NSAttributedString.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE121C721DB46D5500C28179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE121C741DB46D5500C28179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE121C751DB46D5500C28179 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE121C771DB46D5500C28179 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE121C781DB46D5500C28179 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE121C7B1DB46D5500C28179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE121C7D1DB46D5500C28179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE121C801DB46D5500C28179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE121C821DB46D5500C28179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE121C871DB46D5500C28179 /* 学习之富文本NSAttributedStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "学习之富文本NSAttributedStringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE121C8B1DB46D5500C28179 /* ______NSAttributedStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______NSAttributedStringTests.m"; sourceTree = "<group>"; };
+		EE121C8D1DB46D5500C28179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE121C921DB46D5500C28179 /* 学习之富文本NSAttributedStringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "学习之富文本NSAttributedStringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE121C961DB46D5500C28179 /* ______NSAttributedStringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______NSAttributedStringUITests.m"; sourceTree = "<group>"; };
+		EE121C981DB46D5500C28179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE121CA41DB4B37600C28179 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EE121CA51DB4B37600C28179 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EE121CA71DB4C05B00C28179 /* SE`3$9B6}2U77K@4J652D1G.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SE`3$9B6}2U77K@4J652D1G.jpg"; sourceTree = "<group>"; };
+		EE121CA81DB4C05B00C28179 /* 3S(P3C}(QR07_`S8`6YUUKA.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "3S(P3C}(QR07_`S8`6YUUKA.gif"; sourceTree = "<group>"; };
+		EE121CAB1DB4C2B800C28179 /* _QHXQ3OZT{VKKQUF@[{HU83.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "_QHXQ3OZT{VKKQUF@[{HU83.jpg"; sourceTree = "<group>"; };
+		EE121CAD1DB4C2E200C28179 /* )U1FJW4{8[0)DSY%4ZG(MHE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ")U1FJW4{8[0)DSY%4ZG(MHE.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE121C6B1DB46D5500C28179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE121C841DB46D5500C28179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE121C8F1DB46D5500C28179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE121C651DB46D5500C28179 = {
+			isa = PBXGroup;
+			children = (
+				EE121C701DB46D5500C28179 /* 学习之富文本NSAttributedString */,
+				EE121C8A1DB46D5500C28179 /* 学习之富文本NSAttributedStringTests */,
+				EE121C951DB46D5500C28179 /* 学习之富文本NSAttributedStringUITests */,
+				EE121C6F1DB46D5500C28179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE121C6F1DB46D5500C28179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE121C6E1DB46D5500C28179 /* 学习之富文本NSAttributedString.app */,
+				EE121C871DB46D5500C28179 /* 学习之富文本NSAttributedStringTests.xctest */,
+				EE121C921DB46D5500C28179 /* 学习之富文本NSAttributedStringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE121C701DB46D5500C28179 /* 学习之富文本NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				EE121CA71DB4C05B00C28179 /* SE`3$9B6}2U77K@4J652D1G.jpg */,
+				EE121CA81DB4C05B00C28179 /* 3S(P3C}(QR07_`S8`6YUUKA.gif */,
+				EE121CAB1DB4C2B800C28179 /* _QHXQ3OZT{VKKQUF@[{HU83.jpg */,
+				EE121CAD1DB4C2E200C28179 /* )U1FJW4{8[0)DSY%4ZG(MHE.jpg */,
+				EE121C741DB46D5500C28179 /* AppDelegate.h */,
+				EE121C751DB46D5500C28179 /* AppDelegate.m */,
+				EE121C771DB46D5500C28179 /* ViewController.h */,
+				EE121C781DB46D5500C28179 /* ViewController.m */,
+				EE121CA41DB4B37600C28179 /* SecondViewController.h */,
+				EE121CA51DB4B37600C28179 /* SecondViewController.m */,
+				EE121C7A1DB46D5500C28179 /* Main.storyboard */,
+				EE121C7D1DB46D5500C28179 /* Assets.xcassets */,
+				EE121C7F1DB46D5500C28179 /* LaunchScreen.storyboard */,
+				EE121C821DB46D5500C28179 /* Info.plist */,
+				EE121C711DB46D5500C28179 /* Supporting Files */,
+			);
+			path = "学习之富文本NSAttributedString";
+			sourceTree = "<group>";
+		};
+		EE121C711DB46D5500C28179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE121C721DB46D5500C28179 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE121C8A1DB46D5500C28179 /* 学习之富文本NSAttributedStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE121C8B1DB46D5500C28179 /* ______NSAttributedStringTests.m */,
+				EE121C8D1DB46D5500C28179 /* Info.plist */,
+			);
+			path = "学习之富文本NSAttributedStringTests";
+			sourceTree = "<group>";
+		};
+		EE121C951DB46D5500C28179 /* 学习之富文本NSAttributedStringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE121C961DB46D5500C28179 /* ______NSAttributedStringUITests.m */,
+				EE121C981DB46D5500C28179 /* Info.plist */,
+			);
+			path = "学习之富文本NSAttributedStringUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE121C6D1DB46D5500C28179 /* 学习之富文本NSAttributedString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE121C9B1DB46D5500C28179 /* Build configuration list for PBXNativeTarget "学习之富文本NSAttributedString" */;
+			buildPhases = (
+				EE121C6A1DB46D5500C28179 /* Sources */,
+				EE121C6B1DB46D5500C28179 /* Frameworks */,
+				EE121C6C1DB46D5500C28179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "学习之富文本NSAttributedString";
+			productName = "学习之富文本NSAttributedString";
+			productReference = EE121C6E1DB46D5500C28179 /* 学习之富文本NSAttributedString.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE121C861DB46D5500C28179 /* 学习之富文本NSAttributedStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE121C9E1DB46D5500C28179 /* Build configuration list for PBXNativeTarget "学习之富文本NSAttributedStringTests" */;
+			buildPhases = (
+				EE121C831DB46D5500C28179 /* Sources */,
+				EE121C841DB46D5500C28179 /* Frameworks */,
+				EE121C851DB46D5500C28179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE121C891DB46D5500C28179 /* PBXTargetDependency */,
+			);
+			name = "学习之富文本NSAttributedStringTests";
+			productName = "学习之富文本NSAttributedStringTests";
+			productReference = EE121C871DB46D5500C28179 /* 学习之富文本NSAttributedStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE121C911DB46D5500C28179 /* 学习之富文本NSAttributedStringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE121CA11DB46D5500C28179 /* Build configuration list for PBXNativeTarget "学习之富文本NSAttributedStringUITests" */;
+			buildPhases = (
+				EE121C8E1DB46D5500C28179 /* Sources */,
+				EE121C8F1DB46D5500C28179 /* Frameworks */,
+				EE121C901DB46D5500C28179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE121C941DB46D5500C28179 /* PBXTargetDependency */,
+			);
+			name = "学习之富文本NSAttributedStringUITests";
+			productName = "学习之富文本NSAttributedStringUITests";
+			productReference = EE121C921DB46D5500C28179 /* 学习之富文本NSAttributedStringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE121C661DB46D5500C28179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CHL;
+				TargetAttributes = {
+					EE121C6D1DB46D5500C28179 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+					};
+					EE121C861DB46D5500C28179 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+						TestTargetID = EE121C6D1DB46D5500C28179;
+					};
+					EE121C911DB46D5500C28179 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+						TestTargetID = EE121C6D1DB46D5500C28179;
+					};
+				};
+			};
+			buildConfigurationList = EE121C691DB46D5500C28179 /* Build configuration list for PBXProject "学习之富文本NSAttributedString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE121C651DB46D5500C28179;
+			productRefGroup = EE121C6F1DB46D5500C28179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE121C6D1DB46D5500C28179 /* 学习之富文本NSAttributedString */,
+				EE121C861DB46D5500C28179 /* 学习之富文本NSAttributedStringTests */,
+				EE121C911DB46D5500C28179 /* 学习之富文本NSAttributedStringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE121C6C1DB46D5500C28179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE121C811DB46D5500C28179 /* LaunchScreen.storyboard in Resources */,
+				EE121C7E1DB46D5500C28179 /* Assets.xcassets in Resources */,
+				EE121CAC1DB4C2B800C28179 /* _QHXQ3OZT{VKKQUF@[{HU83.jpg in Resources */,
+				EE121CA91DB4C05B00C28179 /* SE`3$9B6}2U77K@4J652D1G.jpg in Resources */,
+				EE121CAE1DB4C2E200C28179 /* )U1FJW4{8[0)DSY%4ZG(MHE.jpg in Resources */,
+				EE121C7C1DB46D5500C28179 /* Main.storyboard in Resources */,
+				EE121CAA1DB4C05B00C28179 /* 3S(P3C}(QR07_`S8`6YUUKA.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE121C851DB46D5500C28179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE121C901DB46D5500C28179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE121C6A1DB46D5500C28179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE121CA61DB4B37600C28179 /* SecondViewController.m in Sources */,
+				EE121C791DB46D5500C28179 /* ViewController.m in Sources */,
+				EE121C761DB46D5500C28179 /* AppDelegate.m in Sources */,
+				EE121C731DB46D5500C28179 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE121C831DB46D5500C28179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE121C8C1DB46D5500C28179 /* ______NSAttributedStringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE121C8E1DB46D5500C28179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE121C971DB46D5500C28179 /* ______NSAttributedStringUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE121C891DB46D5500C28179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE121C6D1DB46D5500C28179 /* 学习之富文本NSAttributedString */;
+			targetProxy = EE121C881DB46D5500C28179 /* PBXContainerItemProxy */;
+		};
+		EE121C941DB46D5500C28179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE121C6D1DB46D5500C28179 /* 学习之富文本NSAttributedString */;
+			targetProxy = EE121C931DB46D5500C28179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE121C7A1DB46D5500C28179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE121C7B1DB46D5500C28179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE121C7F1DB46D5500C28179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE121C801DB46D5500C28179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE121C991DB46D5500C28179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE121C9A1DB46D5500C28179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE121C9C1DB46D5500C28179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "学习之富文本NSAttributedString/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.------NSAttributedString";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE121C9D1DB46D5500C28179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "学习之富文本NSAttributedString/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.------NSAttributedString";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE121C9F1DB46D5500C28179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "学习之富文本NSAttributedStringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.------NSAttributedStringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/学习之富文本NSAttributedString.app/学习之富文本NSAttributedString";
+			};
+			name = Debug;
+		};
+		EE121CA01DB46D5500C28179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "学习之富文本NSAttributedStringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.------NSAttributedStringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/学习之富文本NSAttributedString.app/学习之富文本NSAttributedString";
+			};
+			name = Release;
+		};
+		EE121CA21DB46D5500C28179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "学习之富文本NSAttributedStringUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.------NSAttributedStringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "学习之富文本NSAttributedString";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE121CA31DB46D5500C28179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "学习之富文本NSAttributedStringUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.------NSAttributedStringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "学习之富文本NSAttributedString";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE121C691DB46D5500C28179 /* Build configuration list for PBXProject "学习之富文本NSAttributedString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE121C991DB46D5500C28179 /* Debug */,
+				EE121C9A1DB46D5500C28179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE121C9B1DB46D5500C28179 /* Build configuration list for PBXNativeTarget "学习之富文本NSAttributedString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE121C9C1DB46D5500C28179 /* Debug */,
+				EE121C9D1DB46D5500C28179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE121C9E1DB46D5500C28179 /* Build configuration list for PBXNativeTarget "学习之富文本NSAttributedStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE121C9F1DB46D5500C28179 /* Debug */,
+				EE121CA01DB46D5500C28179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE121CA11DB46D5500C28179 /* Build configuration list for PBXNativeTarget "学习之富文本NSAttributedStringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE121CA21DB46D5500C28179 /* Debug */,
+				EE121CA31DB46D5500C28179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE121C661DB46D5500C28179 /* Project object */;
+}
